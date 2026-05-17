@@ -20,7 +20,7 @@ fn main() {
 
         // Triggers the bug
         for p in DevicePath::get_device_path_list().into_iter().take(1) {
-            println!("{:?}", p);
+            // println!("{:?}", p);
             let handle = p.init().unwrap();
         }
 
