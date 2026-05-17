@@ -1,0 +1,10 @@
+[package]
+name = "allsmi-bug"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# all-smi = "0.20.1"
+all-smi = { git = "https://github.com/lablup/all-smi", rev="b791c7923c7d6c5fbd1c3450cd914328e25eb366", default-features = false }
+libamdgpu_top = "0.11.4"
+
